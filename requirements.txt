@@ -1,0 +1,6 @@
+requests>=2.31
+beautifulsoup4>=4.12
+# Only needed if the listings page turns out to be JavaScript-rendered
+# (see HANDOFF.md §1). Install with:
+#   pip install playwright && playwright install chromium
+# playwright>=1.44

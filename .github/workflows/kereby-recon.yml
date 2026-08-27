@@ -1,0 +1,90 @@
+# One-off diagnostic for the apartment watcher in this repository.
+#
+# Purpose: the machine the watcher was built on cannot reach kereby.dk, so it is
+# still unknown whether the listings page is plain HTML or built by JavaScript.
+# A GitHub runner can reach it. Run this workflow from the Actions tab and it
+# opens an issue containing the answer, so nobody has to run a command or copy
+# output off a phone.
+name: Kereby recon
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Listings URL to test (leave blank for the default)"
+        required: false
+      render_js:
+        description: "Render with a headless browser (try this only if a plain run finds 0 listings)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+
+      - name: Install headless Chromium
+        if: ${{ inputs.render_js == true || inputs.render_js == 'true' }}
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Collect diagnostics
+        env:
+          KEREBY_URL: ${{ inputs.url }}
+          RENDER_JS: ${{ (inputs.render_js == true || inputs.render_js == 'true') && 'true' || 'auto' }}
+        run: |
+          set +e
+          {
+            echo "Recon run: <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}>"
+            echo "URL tested: \`${KEREBY_URL:-default}\`  ·  RENDER_JS: \`${RENDER_JS}\`"
+            echo
+            echo '## Offline self-test (parser logic, no network)'
+            echo '```'; timeout 120 python kereby_watch.py --test 2>&1 | tail -6; echo '```'
+            echo '## Which URL serves the listings (--probe)'
+            echo '```'; timeout 600 python kereby_watch.py --probe 2>&1 | tail -40; echo '```'
+            echo '## Page structure and one listing card (--inspect)'
+            echo '```html'
+            timeout 300 python kereby_watch.py --inspect --chars 3000 2>&1 | tail -140
+            echo '```'
+            echo '## Parsed records (--dump)'
+            echo '```json'; timeout 300 python kereby_watch.py --dump 2>&1 | tail -90; echo '```'
+            echo
+            echo "Full page saved as the \`kereby-recon\` artifact on the run above."
+          } > recon.md
+          cat recon.md
+
+      - name: Upload the full page
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kereby-recon
+          path: |
+            recon.md
+            dump.html
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Report the findings as an issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -s recon.md ] || echo "The diagnostic step produced no output; see the run log." > recon.md
+          # GitHub caps an issue body at 65536 characters.
+          head -c 60000 recon.md > body.md
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Kereby recon — $(date -u '+%Y-%m-%d %H:%M') UTC" \
+            --body-file body.md

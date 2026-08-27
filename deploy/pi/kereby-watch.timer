@@ -1,0 +1,14 @@
+[Unit]
+Description=Check Kereby.dk for newly available apartments every minute
+
+[Timer]
+# First check shortly after boot, then every minute. Kereby is
+# first-come-first-served, so latency is the whole point.
+OnBootSec=45s
+OnUnitActiveSec=__INTERVAL__
+# Fire on time rather than being batched with other timers to save power.
+AccuracySec=2s
+Unit=kereby-watch.service
+
+[Install]
+WantedBy=timers.target

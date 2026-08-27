@@ -1,0 +1,23 @@
+[Unit]
+Description=Kereby.dk apartment watcher (one check)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Filled in by install.sh
+User=__USER__
+WorkingDirectory=__DIR__
+EnvironmentFile=__DIR__/.env
+Environment=STATE_FILE=__STATE__/seen.json
+ExecStart=__DIR__/.venv/bin/python __DIR__/kereby_watch.py
+# One check should never take a minute; if it hangs, kill it so the next
+# tick starts clean rather than piling up.
+TimeoutStartSec=120
+
+# Light hardening: it only needs to read the code and write its state dir.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=__STATE__
