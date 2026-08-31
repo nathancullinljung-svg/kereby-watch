@@ -9,10 +9,11 @@
   "Gammel Kongevej 138D, 1., 1850 Frederiksberg C": "reserved",
   "Nygårdsvej 16B, st. 3, 2100 København Ø": "rented",
   "Stormgade 35, 4. th, 1555 København V": "available",
-  "Ved Klosteret 6, 1. tv, 2100 København Ø": "reserved",
+  "Ved Klosteret 6, 1. tv, 2100 København Ø": "rented",
   "Nygårdsvej 16, 2. tv, 2100 København Ø": "rented",
   "Falkoner Alle 12B, 4. th, 2000 Frederiksberg": "rented",
   "Strandboulevarden 61, 5. th, 2100 København Ø": "available",
   "Bjelkes Allé 18A, 5., 2200 København N": "reserved",
-  "Sortedam Dossering 45, 5. tv, 2200 København N": "available"
+  "Sortedam Dossering 45, 5. tv, 2200 København N": "available",
+  "Sundbyvester Plads 7, 4. th, 2300 København S": "reserved"
 }
