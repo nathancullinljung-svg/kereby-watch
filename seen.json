@@ -6,7 +6,7 @@
   "Christian IX's Gade 5, 2. tv, 1111 København K": "available",
   "Amagerbrogade 238A, 1. tv, 2300 København S": "reserved",
   "Roskildevej 47, st., 2000 Frederiksberg": "available",
-  "Gammel Kongevej 138D, 1., 1850 Frederiksberg C": "reserved",
+  "Gammel Kongevej 138D, 1., 1850 Frederiksberg C": "rented",
   "Nygårdsvej 16B, st. 3, 2100 København Ø": "rented",
   "Stormgade 35, 4. th, 1555 København V": "available",
   "Ved Klosteret 6, 1. tv, 2100 København Ø": "rented",
@@ -15,5 +15,7 @@
   "Strandboulevarden 61, 5. th, 2100 København Ø": "available",
   "Bjelkes Allé 18A, 5., 2200 København N": "reserved",
   "Sortedam Dossering 45, 5. tv, 2200 København N": "available",
-  "Sundbyvester Plads 7, 4. th, 2300 København S": "reserved"
+  "Sundbyvester Plads 7, 4. th, 2300 København S": "reserved",
+  "Store Kongensgade 11, 3. th, 1264 København K": "reserved",
+  "Griffenfeldsgade 6, 4. th, 2200 København N": "reserved"
 }
