@@ -8,7 +8,7 @@
   "Roskildevej 47, st., 2000 Frederiksberg": "rented",
   "Gammel Kongevej 138D, 1., 1850 Frederiksberg C": "rented",
   "Nygårdsvej 16B, st. 3, 2100 København Ø": "rented",
-  "Stormgade 35, 4. th, 1555 København V": "available",
+  "Stormgade 35, 4. th, 1555 København V": "reserved",
   "Ved Klosteret 6, 1. tv, 2100 København Ø": "rented",
   "Nygårdsvej 16, 2. tv, 2100 København Ø": "rented",
   "Falkoner Alle 12B, 4. th, 2000 Frederiksberg": "rented",
@@ -26,5 +26,6 @@
   "Frederiksborggade 35, 1. tv, 1360 København K": "reserved",
   "Vesterbrogade 13, 3. tv, 1620 København V": "reserved",
   "Jagtvej 183, 2. th, 2100 København Ø": "reserved",
-  "Drogdensgade 4, 2. th, 2300 København S": "reserved"
+  "Drogdensgade 4, 2. th, 2300 København S": "reserved",
+  "Amagerbrogade 111, 1. tv, 2300 København S": "reserved"
 }
