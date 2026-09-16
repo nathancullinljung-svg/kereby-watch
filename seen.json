@@ -22,10 +22,13 @@
   "Dannebrogsgade 15, st. th, 1660 København V": "rented",
   "Valby Langgade 122, 3. th, 2500 Valby": "rented",
   "Helgolandsgade 2, 3. th, 1653 København V": "reserved",
-  "Sundbyvester Plads 1, 3. tv, 2300 København S": "reserved",
+  "Sundbyvester Plads 1, 3. tv, 2300 København S": "rented",
   "Frederiksborggade 35, 1. tv, 1360 København K": "reserved",
   "Vesterbrogade 13, 3. tv, 1620 København V": "reserved",
   "Jagtvej 183, 2. th, 2100 København Ø": "reserved",
   "Drogdensgade 4, 2. th, 2300 København S": "reserved",
-  "Amagerbrogade 111, 1. tv, 2300 København S": "reserved"
+  "Amagerbrogade 111, 1. tv, 2300 København S": "reserved",
+  "Nørrebrogade 156, st. tv, 2200 København N": "available",
+  "Fælledvej 23, 3. tv, 2200 København N": "reserved",
+  "Kronprinsensgade 10, 4., 1114 København K": "reserved"
 }
