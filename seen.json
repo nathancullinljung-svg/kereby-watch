@@ -12,7 +12,7 @@
   "Ved Klosteret 6, 1. tv, 2100 København Ø": "rented",
   "Nygårdsvej 16, 2. tv, 2100 København Ø": "rented",
   "Falkoner Alle 12B, 4. th, 2000 Frederiksberg": "rented",
-  "Strandboulevarden 61, 5. th, 2100 København Ø": "available",
+  "Strandboulevarden 61, 5. th, 2100 København Ø": "reserved",
   "Bjelkes Allé 18A, 5., 2200 København N": "reserved",
   "Sortedam Dossering 45, 5. tv, 2200 København N": "available",
   "Sundbyvester Plads 7, 4. th, 2300 København S": "reserved",
@@ -31,9 +31,10 @@
   "Nørrebrogade 156, st. tv, 2200 København N": "available",
   "Fælledvej 23, 3. tv, 2200 København N": "reserved",
   "Kronprinsensgade 10, 4., 1114 København K": "reserved",
-  "Amagerbrogade 109, 1. tv, 2300 København S": "reserved",
+  "Amagerbrogade 109, 1. tv, 2300 København S": "rented",
   "Jagtvej 113, 2., 2200 København N": "available",
   "Godthåbsvej 8A, 2., 2000 Frederiksberg": "reserved",
   "Bjelkes Allé 18, st. th, 2200 København N": "reserved",
-  "Mølle Allé 21, 4. tv, 2500 Valby": "reserved"
+  "Mølle Allé 21, 4. tv, 2500 Valby": "reserved",
+  "Brohusgade 20, 3. tv, 2200 København N": "reserved"
 }
