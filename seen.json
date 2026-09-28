@@ -27,14 +27,15 @@
   "Vesterbrogade 13, 3. tv, 1620 København V": "rented",
   "Jagtvej 183, 2. th, 2100 København Ø": "reserved",
   "Drogdensgade 4, 2. th, 2300 København S": "reserved",
-  "Amagerbrogade 111, 1. tv, 2300 København S": "reserved",
-  "Nørrebrogade 156, st. tv, 2200 København N": "reserved",
-  "Fælledvej 23, 3. tv, 2200 København N": "reserved",
-  "Kronprinsensgade 10, 4., 1114 København K": "reserved",
+  "Amagerbrogade 111, 1. tv, 2300 København S": "rented",
+  "Nørrebrogade 156, st. tv, 2200 København N": "available",
+  "Fælledvej 23, 3. tv, 2200 København N": "rented",
+  "Kronprinsensgade 10, 4., 1114 København K": "rented",
   "Amagerbrogade 109, 1. tv, 2300 København S": "rented",
   "Jagtvej 113, 2., 2200 København N": "available",
   "Godthåbsvej 8A, 2., 2000 Frederiksberg": "reserved",
   "Bjelkes Allé 18, st. th, 2200 København N": "reserved",
   "Mølle Allé 21, 4. tv, 2500 Valby": "reserved",
-  "Brohusgade 20, 3. tv, 2200 København N": "reserved"
+  "Brohusgade 20, 3. tv, 2200 København N": "reserved",
+  "Fredensgade 3B, 3. th, 2200 København N": "reserved"
 }
