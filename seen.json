@@ -32,10 +32,10 @@
   "Fælledvej 23, 3. tv, 2200 København N": "rented",
   "Kronprinsensgade 10, 4., 1114 København K": "rented",
   "Amagerbrogade 109, 1. tv, 2300 København S": "rented",
-  "Jagtvej 113, 2., 2200 København N": "available",
+  "Jagtvej 113, 2., 2200 København N": "reserved",
   "Godthåbsvej 8A, 2., 2000 Frederiksberg": "reserved",
-  "Bjelkes Allé 18, st. th, 2200 København N": "reserved",
-  "Mølle Allé 21, 4. tv, 2500 Valby": "reserved",
+  "Bjelkes Allé 18, st. th, 2200 København N": "rented",
+  "Mølle Allé 21, 4. tv, 2500 Valby": "rented",
   "Brohusgade 20, 3. tv, 2200 København N": "reserved",
   "Fredensgade 3B, 3. th, 2200 København N": "reserved"
 }
