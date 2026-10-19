@@ -41,7 +41,7 @@
   "Jagtvej 183, 1. tv, 2100 København Ø": "available",
   "Heimdalsgade 8, 2. th, 2200 København N": "reserved",
   "Helgolandsgade 2, 5. th, 1653 København V": "reserved",
-  "Gersonsvej 55, st. th, 2900 Hellerup": "available",
+  "Gersonsvej 55, st. th, 2900 Hellerup": "reserved",
   "Rantzausgade 32, 5. tv, 2200 København N": "rented",
   "Gothersgade 10C, 2. th, 1123 København K": "rented",
   "Nørrebrogade 176, 2. tv, 2200 København N": "rented",
@@ -52,5 +52,6 @@
   "Tyrolsgade 9, 1. tv, 2300 København S": "reserved",
   "Nørrebrogade 174, 1. th, 2200 København N": "available",
   "Åboulevard 48, 5. th, 2200 København N": "reserved",
-  "Bøhmensgade 9, 3. th, 2300 København S": "reserved"
+  "Bøhmensgade 9, 3. th, 2300 København S": "reserved",
+  "Søndre Fasanvej 99, 5. tv, 2500 Valby": "reserved"
 }
