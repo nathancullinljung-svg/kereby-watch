@@ -47,7 +47,7 @@
   "Nørrebrogade 176, 2. tv, 2200 København N": "rented",
   "H.C. Ørsteds Vej 12, 2. tv, 1879 Frederiksberg C": "reserved",
   "Sundbyvester Plads 9, 1. tv, 2300 København S": "rented",
-  "Allersgade 1, 2. tv, 2200 København N": "reserved",
+  "Allersgade 1, 2. tv, 2200 København N": "rented",
   "Lyongade 14, 5. tv, 2300 København S": "rented",
   "Tyrolsgade 9, 1. tv, 2300 København S": "rented",
   "Nørrebrogade 174, 1. th, 2200 København N": "available",
@@ -64,5 +64,6 @@
   "Rodosvej 1, 3. tv, 2300 København S": "reserved",
   "Kronprinsensgade 10, 3., 1114 København K": "available",
   "Lillegrund 10A, st. th, 2300 København S": "reserved",
-  "Norgesgade 7, 2. th, 2300 København S": "reserved"
+  "Norgesgade 7, 2. th, 2300 København S": "reserved",
+  "Lyongade 12, 3. th, 2300 København S": "reserved"
 }
