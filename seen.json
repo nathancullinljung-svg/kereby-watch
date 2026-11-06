@@ -38,7 +38,7 @@
   "Mølle Allé 21, 4. tv, 2500 Valby": "rented",
   "Brohusgade 20, 3. tv, 2200 København N": "rented",
   "Fredensgade 3B, 3. th, 2200 København N": "reserved",
-  "Jagtvej 183, 1. tv, 2100 København Ø": "reserved",
+  "Jagtvej 183, 1. tv, 2100 København Ø": "available",
   "Heimdalsgade 8, 2. th, 2200 København N": "reserved",
   "Helgolandsgade 2, 5. th, 1653 København V": "rented",
   "Gersonsvej 55, st. th, 2900 Hellerup": "rented",
@@ -62,8 +62,9 @@
   "Nørrebrogade 174, 5. tv, 2200 København N": "reserved",
   "Drogdensgade 4, 5., 2300 København S": "available",
   "Rodosvej 1, 3. tv, 2300 København S": "reserved",
-  "Kronprinsensgade 10, 3., 1114 København K": "available",
+  "Kronprinsensgade 10, 3., 1114 København K": "reserved",
   "Lillegrund 10A, st. th, 2300 København S": "reserved",
   "Norgesgade 7, 2. th, 2300 København S": "reserved",
-  "Lyongade 12, 3. th, 2300 København S": "reserved"
+  "Lyongade 12, 3. th, 2300 København S": "reserved",
+  "Nørrebrogade 41, 3. th, 2200 København N": "reserved"
 }
