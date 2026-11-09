@@ -62,9 +62,10 @@
   "Nørrebrogade 174, 5. tv, 2200 København N": "reserved",
   "Drogdensgade 4, 5., 2300 København S": "available",
   "Rodosvej 1, 3. tv, 2300 København S": "reserved",
-  "Kronprinsensgade 10, 3., 1114 København K": "reserved",
+  "Kronprinsensgade 10, 3., 1114 København K": "available",
   "Lillegrund 10A, st. th, 2300 København S": "reserved",
   "Norgesgade 7, 2. th, 2300 København S": "reserved",
   "Lyongade 12, 3. th, 2300 København S": "reserved",
-  "Nørrebrogade 41, 3. th, 2200 København N": "reserved"
+  "Nørrebrogade 41, 3. th, 2200 København N": "reserved",
+  "Sommerstedgade 12, 1. th, 1718 København V": "reserved"
 }
