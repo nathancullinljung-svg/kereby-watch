@@ -60,9 +60,9 @@
   "Falkoner Alle 12A, 3. th, 2000 Frederiksberg": "reserved",
   "Åboulevard 48, 1. th, 2200 København N": "reserved",
   "Nørrebrogade 174, 5. tv, 2200 København N": "reserved",
-  "Drogdensgade 4, 5., 2300 København S": "available",
+  "Drogdensgade 4, 5., 2300 København S": "reserved",
   "Rodosvej 1, 3. tv, 2300 København S": "reserved",
-  "Kronprinsensgade 10, 3., 1114 København K": "available",
+  "Kronprinsensgade 10, 3., 1114 København K": "reserved",
   "Lillegrund 10A, st. th, 2300 København S": "reserved",
   "Norgesgade 7, 2. th, 2300 København S": "rented",
   "Lyongade 12, 3. th, 2300 København S": "reserved",
@@ -70,5 +70,6 @@
   "Sommerstedgade 12, 1. th, 1718 København V": "reserved",
   "Oehlenschlægersgade 46, 2. tv, 1663 København V": "reserved",
   "Englandsvej 2, 3. tv, 2300 København S": "reserved",
-  "Herluf Trolles Gade 3, 3. tv, 1052 København K": "available"
+  "Herluf Trolles Gade 3, 3. tv, 1052 København K": "reserved",
+  "Nygårdsvej 16, 1. th, 2100 København Ø": "reserved"
 }
