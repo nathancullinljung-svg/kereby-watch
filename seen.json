@@ -73,10 +73,11 @@
   "Herluf Trolles Gade 3, 3. tv, 1052 København K": "reserved",
   "Nygårdsvej 16, 1. th, 2100 København Ø": "rented",
   "Ved Klosteret 4, st. th, 2100 København Ø": "rented",
-  "Bredegrund 42, 2. tv, 2300 København S": "reserved",
-  "Nørrebrogade 30, 2. th, 2200 København N": "reserved",
-  "Valby Langgade 75, 3. th, 2500 Valby": "reserved",
+  "Bredegrund 42, 2. tv, 2300 København S": "rented",
+  "Nørrebrogade 30, 2. th, 2200 København N": "rented",
+  "Valby Langgade 75, 3. th, 2500 Valby": "rented",
   "Sølvgade 14, 3. th, 1307 København K": "reserved",
   "Heimdalsgade 10B, st., 2200 København N": "reserved",
-  "Bredegrund 42, st. th, 2300 København S": "reserved"
+  "Bredegrund 42, st. th, 2300 København S": "reserved",
+  "Nørrebrogade 28, 3., 2200 København N": "reserved"
 }
